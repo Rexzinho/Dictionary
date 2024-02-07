@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary</title>
+    <link rel="icon" type="image/x-icon" href="./dictionaryIcon.ico">
+</head>
+<body>
+    <div id="dictionary">
+        <input type="text" id="wordPlaced" placeholder="Enter a word">
+        <button id="searchBtn" onclick="updateDictionary()">Search</button>
+        <h2 id="displayWord"></h2>
+        <p id="displayPartOfSpeech"></p>
+        <p id="displaySynonymous"></p>
+        <br>
+        <p id="displayDefinition"></p>
+        <button id="wordSound" onclick="playSound()">🔊</button>
+        <p id="errorMessage">Invalid Word</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
